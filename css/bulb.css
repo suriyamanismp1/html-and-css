@@ -1,0 +1,20 @@
+body
+{
+    text-align: center;
+}
+button
+{
+    width: 130px;
+    height:  60px;
+    background: black;
+    color: white;
+    font-size:  24px;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}

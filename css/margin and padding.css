@@ -1,0 +1,19 @@
+*{
+    background-color: blanchedalmond;
+}
+#parent{
+    width: 300px;
+    height: 300px;
+    border: 2cm solid whitesmoke;
+    padding: 3cm;
+    margin-left: 10.7cm;
+    margin-top: 2.5cm;
+    background-color: rgb(217, 234, 234);
+}
+#child{
+    width: 200px;
+    height: 200px;
+    border: 1cm solid rgb(170, 217, 231);
+    padding:20px 2px 2px 20px;
+    background-color: rgb(160, 172, 168);
+}

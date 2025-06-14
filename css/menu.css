@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+}
+marquee{
+    background-color: rgb(160, 160, 189);
+    border-radius: 50px;
+}
+marquee:hover{
+    cursor: pointer;
+    background-color: rgb(94, 162, 221);
+}
+ul{ 
+    padding: 4px;
+    width: 770px;
+    height: 45px;
+    margin: auto;
+    border: 5px solid darkblue;
+    background-color: skyblue;
+    border-radius: 50px;
+}
+ul li{
+    margin-left: 10px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+    /* color: white; */
+    font-size: 18px;
+    font-family: sans-serif;
+}
+ul li:hover{
+    background-color: aquamarine;
+    border-color: black;
+    cursor: pointer;
+}

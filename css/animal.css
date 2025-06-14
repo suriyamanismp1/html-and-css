@@ -1,0 +1,91 @@
+body
+{
+    background-color: #27c47bf1;
+    padding: 25px;
+}
+
+#center{
+    position: absolute;
+    top: 0px;
+}
+#Next{
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+}
+#Back{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+#w
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-shadow: 1px 1px 1px rgba(175, 120, 36, 0.541);
+}
+.border_child {
+    border:2px solid #6ebb6e;
+    padding: 10px;
+    margin-right : 25%;
+    color : white;
+    font-size : 18px;
+    background-color:   #6ebb6e;
+    
+
+}
+.para_child {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align:top;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-indent: 100px;
+    /* width: 300px; */
+     /* max-width: 580px; */
+    /* min-width: 450px;  */
+    /* min-height: ; */
+    /* max-height: ; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow-y: scroll;
+    overflow-x: hidden;     */
+}
+/* pesudo elements */
+.para_child::first-line{color: rgb(0, 255, 157);}
+.para_child::first-letter{font-size: 50px;}
+/* pesudo class */
+a:link{color: rgb(0, 255, 157);}
+a:visited{color: black;}
+a:hover{color: darkcyan;}
+a:active{color:purple;}
+a:focus{color: rgb(117, 170, 92);}
+.page_child{
+    color: #8c40a5;
+}
+.list_child{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.q
+{   
+    color:antiquewhite;
+    background-color: rgb(85, 151, 85);
+}
+button
+{   
+    /* color:white;
+    background-color:  rgb(42, 138, 76);
+    padding : 1%;
+    float: right; 
+    border: solid 3px rgb(110, 151, 161);
+    border-radius: none; */
+    color: white;
+    background-color: #6ebb6e;
+    padding: 0px 15px 0px;
+    border: solid 4px rgba(148, 142, 109, 0.356);
+    border-radius: 10px;
+    font-size: 20px;
+}

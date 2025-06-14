@@ -1,0 +1,79 @@
+ body
+{
+    background-image:url('/image/TF.jpg');
+    /* background-size:25%; */
+    background-size:100%;
+    /* background-position: center  center; */
+    /* background-position: center  left; */
+    /* background-position: right  left; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-attachment: fixed;
+    /* background: color link-for-image  repeat position attachment */
+    
+
+}
+.head
+{
+    height: 7%;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(127, 84, 184, 0.479);
+    border-radius:  1000px 0px 1000px 0px;
+    box-shadow: 50px 50px 50px inset rgba(44, 36, 36, 0.377)
+
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(42, 13, 146);
+    font-size: 50px;
+    padding: 4%;
+    font-display: inherit;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px  rgb(130, 29, 189);
+}
+h5
+{
+    text-align: center;
+    color: rgb(37, 40, 213);
+    font-size: 40px;
+    font-display: inherit;
+    box-shadow: 50px 50px 50px inset rgba(163, 155, 155, 0.603);
+    border-radius:1000px 0px 1000px 0px;
+    /* display:inline-block; */
+    text-shadow: 5px 5px 5px  rgb(189, 29, 29);
+}
+.box
+{   
+    /* border-radius:  180px 0px 180px 0px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70%;
+    width: 60%;
+    background-color: rgba(37, 37, 41, 0.925);
+}
+.first
+{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.second
+{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.image
+{
+    width: 170px;
+    height: 170px;
+    border-radius:  100px 0px 100px 0px;
+    padding: 25px;
+    background-color: rgba(240, 248, 255, 0.308);
+    box-shadow: 50px 50px 50px inset rgba(199, 22, 22, 0.377)
+
+} 

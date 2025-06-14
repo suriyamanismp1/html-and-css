@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+#N{
+    margin: auto;
+    margin-top: 1cm;
+    width: 500px;
+    height: 200px;
+    border: 10px solid darkred;
+    background-color: antiquewhite;
+    
+}
+ul li{
+    padding: 5px;
+    font-size: 18px;
+    list-style-type: none;
+    color: white;
+
+}
+div marquee ul{
+padding: 2px;
+background-color: darkolivegreen;
+}

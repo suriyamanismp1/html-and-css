@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color:color-mix(in srgb, violet 20%, orange 40%) ;
+}
+
+form {
+    background-color: rgb(118, 202, 111);
+    margin: 2% 10%;
+    padding: 50px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(81, 54, 54);
+}
+
+#button {
+    padding: 8px;
+    background-color: rgb(83, 5, 21);
+    font-weight: bold;
+    color: rgb(120, 90, 90);
+    border-radius: 4px;
+}
+
+label {
+    font-size: 20px;
+}
